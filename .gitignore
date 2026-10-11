@@ -31,3 +31,6 @@ venv/
 *.env
 *.pem
 *.key
+
+# ---- macOS ----
+.DS_Store
