@@ -28,7 +28,7 @@ complete only after its command succeeds on this machine.
 ## Commands completed
 
 ```bash
-cd /Users/zhangsidong/Desktop/core
+cd <repo-root>
 .venv/bin/python learning/step01_understand_data.py
 ```
 

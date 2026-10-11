@@ -128,3 +128,13 @@ python scripts/eval_agentic.py --model <model> --max-turns 7 --max-samples 185
 - `models/`、`outputs/`、`results/`、训练产物与日志。
 
 仓库仅包含**项目自身源码**（`agents/ retrieval/ evaluation/ training/ scripts/ llm/ api/` 等）。
+
+---
+
+## 七、致谢与参考
+
+- 评测基准：**AgenticRAGTracer**（本项目在其基础上完成复现与端到端改造）。
+- 训练框架：**veRL**（GRPO 多轮 rollout）、**LLaMA-Factory**（SFT）。
+- 模型与检索：**Qwen3-4B**（基座）、**BGE-M3 / BGE-Reranker-v2-m3**（检索与重排）。
+- 数据/许可按各自来源保留，仓库仅含项目源码。
+
