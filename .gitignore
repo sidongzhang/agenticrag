@@ -1,0 +1,33 @@
+# ---- 数据 / 索引 / 训练产物（体积大，见 README 重新生成）----
+data/
+tmp/
+models/
+outputs/
+results/
+wandb/
+*.pkl
+*.index
+*.faiss
+*.parquet
+*.jsonl
+*.pt
+*.bin
+*.safetensors
+*.log
+
+# ---- 第三方依赖（外部 clone，不纳入本仓库）----
+verl/
+LLaMA-Factory/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# ---- 密钥 ----
+.env
+*.env
+*.pem
+*.key
